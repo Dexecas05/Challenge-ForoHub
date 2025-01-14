@@ -4,6 +4,7 @@ CREATE TABLE topicos (
     mensaje TEXT NOT NULL,
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     status VARCHAR(50),
-    autor VARCHAR(100),
-    curso VARCHAR(100)
+    autor_id BIGINT(100),
+    curso VARCHAR(100),
+    FOREIGN KEY (autor_id) REFERENCES usuarios(id)
 );
