@@ -1,4 +1,4 @@
-package com.daletguimel.forohub.domain.controller;
+package com.daletguimel.forohub.controller;
 
 import com.daletguimel.forohub.domain.topico.*;
 import jakarta.validation.Valid;
