@@ -21,9 +21,10 @@ public class TopicoController {
     }
 
     @PostMapping
-    public ResponseEntity<Topico> registrarTopico(@RequestBody @Valid CrearTopicoDTO dto){
+    public ResponseEntity<CrearTopicoDTO> registrarTopico(@RequestBody @Valid CrearTopicoDTO dto){
         Topico nuevoTopico = topicoService.registrarTopico(dto);
-        return ResponseEntity.ok(nuevoTopico);
+        return ResponseEntity.ok(new CrearTopicoDTO(nuevoTopico.getTitulo(), nuevoTopico.getMensaje(),
+                nuevoTopico.getAutor().getId(), nuevoTopico.getCurso()));
     }
 
     @GetMapping

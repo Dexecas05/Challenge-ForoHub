@@ -8,7 +8,7 @@ public record TopicoDTO(
         String mensaje,
         LocalDateTime fechaCreacion,
         String status,
-        Long autor,
+        Long autorId,
         String curso
 ) {
 }
