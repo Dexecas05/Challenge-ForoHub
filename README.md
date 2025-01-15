@@ -5,27 +5,27 @@ Además, cuenta con autenticación y autorización utilizando JWT (Jason Web Tok
 
 ## Tecnologías Utilizadas
 
-  ### Software
+### Software
   
-    - **Java 17**
-    - **Spring Boot**: versión 3 en adelante.
-    - **Maven**: versión 4 en adelante.
-    - **MySQL**: versión 8 en adelante.
-    - **IDE IntelliJ IDEA**: opcional, pueder ser Eclipse u otro.
-    - **Insomnia**
+- **Java 17**
+- **Spring Boot**: versión 3 en adelante.
+- **Maven**: versión 4 en adelante.
+- **MySQL**: versión 8 en adelante.
+- **IDE IntelliJ IDEA**: opcional, pueder ser Eclipse u otro.
+- **Insomnia**
     
-  ### Dependencias
+### Dependencias
 
-    - **Spring Security**
-    - **Spring Data JPA**
-    - **Spring Boot DevTools**
-    - **Spring Web**
-    - **MySQL Driver**
-    - **Lombok**
-    - **Validation**
-    - **Flyway Migration
-    - **Auth0 (JWT - JSON Web Token)**
-    - **Springdoc OpenAPI (Swagger)** 
+- **Spring Security**
+- **Spring Data JPA**
+- **Spring Boot DevTools**
+- **Spring Web**
+- **MySQL Driver**
+- **Lombok**
+- **Validation**
+- **Flyway Migration
+- **Auth0 (JWT - JSON Web Token)**
+- **Springdoc OpenAPI (Swagger)** 
 
 ## Características
 
@@ -41,7 +41,7 @@ Además, cuenta con autenticación y autorización utilizando JWT (Jason Web Tok
 - Maven
 - MySQL (opcional, para producción)
 
-  ### Configuración
+### Configuración
 
 1. Clona el repositorio:
 
@@ -69,13 +69,13 @@ Además, cuenta con autenticación y autorización utilizando JWT (Jason Web Tok
 
 ## Uso
 
-  ### Autenticación
+### Autenticación
 
 1. Regístrate como usuario (puedes insertar un usuario directamente en la base de datos para simplificar).
 2. Autentícate mediante el endpoint `/login` con las credenciales correctas para obtener un token JWT.
 3. Usa el token JWT para acceder a los demás endpoints protegidos por seguridad.
 
-  ### Documentación de la API
+### Documentación de la API
 
 La documentación de la API está disponible en: `http://localhost:8080/swagger-ui.html` 
 También puedes ver la descripción de OpenAPI, en formato Json, en: `http://localhost:8080/v3/api-docs` 
@@ -96,8 +96,17 @@ También puedes ver la descripción de OpenAPI, en formato Json, en: `http://loc
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más información.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más información.
+
+## Autor
+
+  - Desarrollado por Darío Exequiel Castillo
 
 ## Contacto
 
-Desarrollado por [Exequiel Castillo](mailto:execas.dec@gmail.com)
+  - [Email](mailto:execas.dec@gmail.com)
+  - LinkedIn: <www.linkedin.com/in/darío-castillo-b1463998>
+
+_ _ _
+
+**Este proyecto fue desarrollado en el marco de participación del Programa ONE (Oracle Next Education), ofrecido por Alura Latam y Oracle. Puedes leer más en el siguiente enlace <https://www.oracle.com/ar/education/oracle-next-education/>*
