@@ -1,5 +1,13 @@
 # ForoHub
 
+![Estado](https://img.shields.io/badge/estado-terminado-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-blue) 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.1-brightgreen) 
+![MySQL](https://img.shields.io/badge/MySQL-8.0.0-blue) 
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-2024.2.1-blue) 
+![Insomnia](https://img.shields.io/badge/Insomnia-black) 
+![Swagger](https://img.shields.io/badge/Swagger-brightgreen)
+
 ForoHub es una API REST diseñada para gestionar un foro en línea, proporcionando funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar) para tópicos. 
 Además, cuenta con autenticación y autorización utilizando JWT (Jason Web Token) para garantizar la seguridad de la aplicación.
 
