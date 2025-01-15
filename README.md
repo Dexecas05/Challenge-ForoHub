@@ -114,7 +114,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 ## Contacto
 
   - [Email](mailto:execas.dec@gmail.com)
-  - LinkedIn: <www.linkedin.com/in/darío-castillo-b1463998>
+  - [LinkedIn](www.linkedin.com/in/darío-castillo-b1463998)
 
 _ _ _
 
