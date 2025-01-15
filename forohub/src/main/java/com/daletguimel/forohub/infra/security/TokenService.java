@@ -1,4 +1,4 @@
-package com.daletguimel.forohub.security;
+package com.daletguimel.forohub.infra.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

@@ -1,4 +1,4 @@
-package com.daletguimel.forohub.security;
+package com.daletguimel.forohub.infra.security;
 
 public record JWTTokenDTO(String jwtToken) {
 }

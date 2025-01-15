@@ -2,8 +2,8 @@ package com.daletguimel.forohub.controller;
 
 import com.daletguimel.forohub.domain.usuario.AutenticarUsuarioDTO;
 import com.daletguimel.forohub.domain.usuario.Usuario;
-import com.daletguimel.forohub.security.JWTTokenDTO;
-import com.daletguimel.forohub.security.TokenService;
+import com.daletguimel.forohub.infra.security.JWTTokenDTO;
+import com.daletguimel.forohub.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

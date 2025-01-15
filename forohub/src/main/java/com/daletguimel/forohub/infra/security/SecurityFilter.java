@@ -1,4 +1,4 @@
-package com.daletguimel.forohub.security;
+package com.daletguimel.forohub.infra.security;
 
 import com.daletguimel.forohub.domain.usuario.UsuarioRepository;
 import jakarta.servlet.FilterChain;
